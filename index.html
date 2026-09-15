@@ -3,100 +3,307 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>What Nigeria is hiring for — daily infographics</title>
+<title>What Nigeria is hiring for — daily snapshot</title>
 <meta name="description" content="Five snapshots of the Nigerian labour market, updated daily from public job listings. Non-commercial, data-only." />
+<meta property="og:title" content="What Nigeria is hiring for right now" />
+<meta property="og:description" content="Salary, employers, entry-level squeeze, top titles, top technical skills. Updated daily." />
+<meta name="theme-color" content="#0e7c4b" />
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%87%B3%F0%9F%87%AC%3C/text%3E%3C/svg%3E" />
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
 <style>
-  :root { color-scheme: light; }
+  :root {
+    color-scheme: light;
+    --bg:          #fbf9f3;
+    --paper:       #ffffff;
+    --ink:         #0f172a;
+    --ink-2:       #334155;
+    --muted:       #6b7a90;
+    --rule:        #e5e0d3;
+    --rule-2:      #efece2;
+    --accent:      #0e7c4b;
+    --accent-ink:  #054a2c;
+    --accent-soft: #e6f2ec;
+    --rust:        #b45309;
+    --rust-soft:   #fdf3e4;
+    --serif: ui-serif, "New York", "Iowan Old Style", "Palatino Linotype", Georgia, "Times New Roman", serif;
+    --sans:  ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "SF Pro Text", Inter, Roboto, sans-serif;
+  }
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; }
   body {
-    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-    color: #0b1320;
-    background: #f8fafc;
-    line-height: 1.55;
+    font-family: var(--sans);
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
   }
-  .wrap { max-width: 1024px; margin: 0 auto; padding: 24px 20px 64px; }
-  header { border-bottom: 1px solid #e2e8f0; padding-bottom: 20px; }
-  .eyebrow { font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em; color: #64748b; }
-  h1 { font-size: 32px; font-weight: 800; margin: 8px 0 8px; letter-spacing: -0.01em; }
-  h2 { font-size: 20px; font-weight: 700; margin: 0 0 6px; }
-  p.lede { max-width: 720px; color: #334155; margin: 8px 0 4px; }
-  p.meta { font-size: 12px; color: #94a3b8; margin: 4px 0 0; }
-  section.card {
-    background: #fff; border: 1px solid #e2e8f0; border-radius: 10px;
-    padding: 20px; margin-top: 24px;
+  a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+  a:hover { color: var(--accent-ink); }
+
+  /* Sticky top bar */
+  nav.topbar {
+    position: sticky; top: 0; z-index: 40;
+    background: rgba(251, 249, 243, 0.92);
+    backdrop-filter: saturate(140%) blur(8px);
+    -webkit-backdrop-filter: saturate(140%) blur(8px);
+    border-bottom: 1px solid var(--rule);
   }
-  .lead { font-size: 14px; color: #334155; margin: 6px 0 12px; }
-  .callout {
-    display: inline-block; padding: 2px 8px; border-radius: 4px;
-    font-size: 12px; font-weight: 600;
+  nav.topbar .row {
+    max-width: 1080px; margin: 0 auto;
+    display: flex; align-items: center; gap: 16px;
+    padding: 10px 20px;
+    font-size: 13px;
   }
-  .callout-emerald { background: #d1fae5; color: #065f46; }
-  .callout-slate   { background: #e2e8f0; color: #334155; }
+  nav.topbar .brand { font-weight: 700; letter-spacing: -0.01em; }
+  nav.topbar .brand .flag { margin-right: 4px; }
+  nav.topbar .tag {
+    display: inline-block; margin-left: 8px;
+    padding: 1px 8px; border-radius: 999px;
+    background: var(--accent-soft); color: var(--accent-ink);
+    font-size: 11px; font-weight: 600; letter-spacing: 0.02em;
+  }
+  nav.topbar .spacer { flex: 1 1 auto; }
+  nav.topbar .anchors { display: flex; gap: 14px; flex-wrap: wrap; }
+  nav.topbar .anchors a { color: var(--ink-2); text-decoration: none; }
+  nav.topbar .anchors a:hover { color: var(--accent-ink); }
+
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 40px 20px 80px; }
+
+  /* Masthead */
+  .mast { border-bottom: 1px solid var(--rule); padding-bottom: 28px; margin-bottom: 8px; }
+  .eyebrow {
+    font-family: var(--sans);
+    font-size: 11px; text-transform: uppercase; letter-spacing: 0.16em;
+    color: var(--muted); font-weight: 600;
+  }
+  h1 {
+    font-family: var(--serif);
+    font-size: clamp(34px, 5.2vw, 56px);
+    font-weight: 700; line-height: 1.05;
+    letter-spacing: -0.015em;
+    margin: 12px 0 12px;
+  }
+  p.lede {
+    max-width: 720px;
+    font-size: 17px; color: var(--ink-2);
+    margin: 12px 0 0;
+  }
+  p.meta {
+    font-size: 12px; color: var(--muted);
+    margin: 14px 0 0;
+  }
+  .hero-stats {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 14px; margin-top: 26px;
+  }
+  .hero-stats > div {
+    padding: 14px 16px; background: var(--paper);
+    border: 1px solid var(--rule); border-radius: 6px;
+  }
+  .hero-stats .v {
+    font-family: var(--serif);
+    font-size: 30px; font-weight: 600; line-height: 1;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.01em;
+  }
+  .hero-stats .k {
+    font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em;
+    color: var(--muted); margin-top: 6px; font-weight: 600;
+  }
+
+  /* Chapter sections */
+  .chapter { margin-top: 64px; }
+  .chapter .head { display: grid; grid-template-columns: 64px 1fr; gap: 12px; align-items: baseline; }
+  .chapter .num {
+    font-family: var(--serif);
+    font-size: 48px; font-weight: 400;
+    color: var(--accent); opacity: 0.5;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+  }
+  .chapter h2 {
+    font-family: var(--serif);
+    font-size: clamp(24px, 3.4vw, 36px);
+    font-weight: 700; line-height: 1.12;
+    letter-spacing: -0.01em;
+    margin: 0;
+  }
+  .chapter .deck {
+    grid-column: 2;
+    font-size: 16px; color: var(--ink-2);
+    max-width: 640px; margin: 8px 0 0;
+  }
+  .chapter .box {
+    background: var(--paper); border: 1px solid var(--rule);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 22px;
+  }
+  .chapter .caption {
+    font-size: 12px; color: var(--muted);
+    margin: 10px 0 0; padding-top: 8px; border-top: 1px dashed var(--rule-2);
+  }
+
+  /* Tables */
   table { width: 100%; border-collapse: collapse; font-size: 14px; }
-  thead tr { border-bottom: 1px solid #e2e8f0; text-align: left; color: #64748b; }
-  th, td { padding: 6px 8px; }
+  thead tr { border-bottom: 1px solid var(--rule); text-align: left; color: var(--muted); }
+  th { font-weight: 600; font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; padding: 8px 8px; }
+  td { padding: 8px 8px; border-bottom: 1px solid var(--rule-2); }
+  tbody tr:hover td { background: #fdfbf3; }
   td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
-  tbody tr { border-bottom: 1px solid #f1f5f9; }
-  tbody tr:nth-child(odd) { background: #fafbfc; }
-  .rank { color: #94a3b8; text-align: right; padding-right: 12px; font-variant-numeric: tabular-nums; }
-  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid #e2e8f0; font-size: 12px; color: #64748b; text-align: center; }
-  a { color: #1f6feb; }
-  code { background: #f1f5f9; padding: 1px 5px; border-radius: 3px; font-size: 13px; }
-  .stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin: 16px 0 0; }
-  .stat { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px 14px; }
-  .stat .k { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: #64748b; }
-  .stat .v { font-size: 22px; font-weight: 700; margin-top: 2px; font-variant-numeric: tabular-nums; }
-  .stat .s { font-size: 12px; color: #64748b; }
+  .rank { color: var(--muted); text-align: right; padding-right: 12px; font-variant-numeric: tabular-nums; width: 40px; }
+  .co-name { font-weight: 600; }
+
+  /* Stat callouts under experience chart */
+  .stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin: 18px 0 0; }
+  .stat {
+    padding: 14px 16px; border-radius: 6px;
+    border: 1px solid var(--rule); background: var(--bg);
+  }
+  .stat.warn { background: var(--rust-soft); border-color: #e9d1a8; }
+  .stat.win  { background: var(--accent-soft); border-color: #bfe0ce; }
+  .stat .k { font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); font-weight: 600; }
+  .stat .v {
+    font-family: var(--serif);
+    font-size: 30px; font-weight: 600; line-height: 1;
+    font-variant-numeric: tabular-nums; margin: 6px 0 6px;
+    letter-spacing: -0.01em;
+  }
+  .stat .s { font-size: 13px; color: var(--ink-2); }
+
+  footer {
+    margin-top: 72px; padding-top: 20px;
+    border-top: 1px solid var(--rule);
+    font-size: 12px; color: var(--muted); text-align: center;
+  }
+  footer a { color: var(--muted); }
+
+  /* Nicer mobile density */
+  @media (max-width: 560px) {
+    .wrap { padding: 24px 14px 40px; }
+    nav.topbar .anchors { display: none; }
+    .chapter .head { grid-template-columns: 44px 1fr; }
+    .chapter .num { font-size: 34px; }
+    .chapter .deck { grid-column: 1 / span 2; }
+    .chapter .box { padding: 14px; }
+  }
 </style>
 </head>
 <body>
+
+<nav class="topbar">
+  <div class="row">
+    <div class="brand"><span class="flag">🇳🇬</span>ng-jobs<span class="tag">daily snapshot</span></div>
+    <div class="spacer"></div>
+    <div class="anchors">
+      <a href="#salary">Salary</a>
+      <a href="#employers">Employers</a>
+      <a href="#entry">Entry-level</a>
+      <a href="#titles">Titles</a>
+      <a href="#skills">Skills</a>
+    </div>
+  </div>
+</nav>
+
 <div class="wrap">
 
-<header>
-  <p class="eyebrow">Nigerian labour market · public infographics</p>
+<header class="mast">
+  <p class="eyebrow">Nigerian labour market · daily snapshot</p>
   <h1>What Nigeria is hiring for right now</h1>
-  <p class="lede">Five snapshots built from <strong>32,631</strong> job postings crawled from public listings across MyJobMag and Jobberman. Non-commercial, no ads, no listings. Refreshed daily.</p>
-  <p class="meta">Snapshot generated 2026-09-15 14:54 UTC · <a href="./data.json">machine-readable data</a></p>
+  <p class="lede">Five snapshots built from <strong>32,631</strong> job postings collected from public Nigerian job listings. Non-commercial. No ads, no listings, no PII. Rebuilt every morning.</p>
+  <p class="meta">Snapshot: 2026-09-15 16:16 UTC · <a href="./data.json">machine-readable data (JSON)</a></p>
+
+  <div class="hero-stats">
+    <div>
+      <div class="v" id="hero-postings">—</div>
+      <div class="k">Postings analysed</div>
+    </div>
+    <div>
+      <div class="v" id="hero-employers">—</div>
+      <div class="k">Distinct top employers</div>
+    </div>
+    <div>
+      <div class="v" id="hero-states">—</div>
+      <div class="k">States with salary data</div>
+    </div>
+    <div>
+      <div class="v" id="hero-entry">—</div>
+      <div class="k">Ask for 0-1 yrs</div>
+    </div>
+  </div>
 </header>
 
-<section class="card" id="salary-by-state">
-  <h2>The Nigerian salary map</h2>
-  <p class="lead">Median monthly salary (₦) among postings that disclose it, by state. States with fewer than 20 salaried listings are hidden — sample too small to plot honestly.</p>
-  <div id="chart-salary" style="height: 520px;"></div>
-  <p class="meta">Interquartile ranges shown as horizontal bars (p25 → p75). Point is the median.</p>
+<section class="chapter" id="salary">
+  <div class="head">
+    <div class="num">01</div>
+    <div>
+      <h2>The Nigerian salary map</h2>
+      <p class="deck">Median monthly pay (₦), by state — from postings that disclose salary. States with fewer than 20 salaried listings are hidden; the sample is too thin to plot honestly.</p>
+    </div>
+  </div>
+  <div class="box">
+    <div id="chart-salary" style="height: 540px;"></div>
+    <p class="caption">Median dot with a p25 → p75 interquartile line. Hover a bar for the underlying sample size.</p>
+  </div>
 </section>
 
-<section class="card" id="top-companies">
-  <h2>Who&rsquo;s actually hiring in Nigeria</h2>
-  <p class="lead">Top 25 employers by posting volume in the last 90 days, with each company&rsquo;s three most-posted role types.</p>
-  <div id="table-companies"></div>
+<section class="chapter" id="employers">
+  <div class="head">
+    <div class="num">02</div>
+    <div>
+      <h2>Who&rsquo;s actually hiring</h2>
+      <p class="deck">Top 25 Nigerian employers by number of job posts in the last 90 days, and the three roles each of them posts most.</p>
+    </div>
+  </div>
+  <div class="box">
+    <div id="table-companies"></div>
+  </div>
 </section>
 
-<section class="card" id="entry-level">
-  <h2>The entry-level squeeze</h2>
-  <p class="lead">How much prior experience Nigerian postings ask for, among the ones that state a level.</p>
-  <div id="chart-experience" style="height: 380px;"></div>
-  <div class="stat-row" id="stats-experience"></div>
+<section class="chapter" id="entry">
+  <div class="head">
+    <div class="num">03</div>
+    <div>
+      <h2>The entry-level squeeze</h2>
+      <p class="deck">Of the postings that state a required experience level, how many ask for a graduate versus how many demand years of prior work.</p>
+    </div>
+  </div>
+  <div class="box">
+    <div id="chart-experience" style="height: 380px;"></div>
+    <div class="stat-row" id="stats-experience"></div>
+  </div>
 </section>
 
-<section class="card" id="top-titles">
-  <h2>Top 10 job titles by volume</h2>
-  <p class="lead">Ranked by all-time posting count. Arrows show week-over-week direction: ▲ rising · ▼ falling · • steady.</p>
-  <div id="chart-titles" style="height: 480px;"></div>
+<section class="chapter" id="titles">
+  <div class="head">
+    <div class="num">04</div>
+    <div>
+      <h2>Top 10 job titles by volume</h2>
+      <p class="deck">Ranked by total posts observed. Arrows are week-over-week direction: <strong>▲</strong> rising, <strong>▼</strong> falling, <strong>•</strong> steady.</p>
+    </div>
+  </div>
+  <div class="box">
+    <div id="chart-titles" style="height: 480px;"></div>
+  </div>
 </section>
 
-<section class="card" id="top-skills">
-  <h2>Top 10 technical skills employers ask for</h2>
-  <p class="lead">Restricted to <em>Data / Software / Cloud / Engineering</em>. Soft skills like Communication and Leadership dominate the flat top-N — noted for honesty.</p>
-  <div id="chart-tech" style="height: 480px;"></div>
+<section class="chapter" id="skills">
+  <div class="head">
+    <div class="num">05</div>
+    <div>
+      <h2>Top 10 technical skills employers ask for</h2>
+      <p class="deck">Restricted to <em>Data · Software · Cloud · Engineering</em>. Soft skills (Communication, Leadership) top the flat list; this cut is aimed at people choosing what to learn.</p>
+    </div>
+  </div>
+  <div class="box">
+    <div id="chart-tech" style="height: 480px;"></div>
+  </div>
 </section>
 
 <footer>
-  Independent, non-commercial. Data crawled from public job listings on MyJobMag &amp; Jobberman.
-  <br>Numbers are refreshed daily by the pipeline that ingests these listings; snapshot above is the last successful build.
+  Independent, non-commercial. Data derived from public Nigerian job listings.<br>
+  Rebuilt each morning from the last successful pipeline run.
 </footer>
 
 </div>
@@ -107,60 +314,98 @@
   const data = JSON.parse(document.getElementById('data-blob').textContent);
   const fmt = (n) => Number(n || 0).toLocaleString('en-NG');
   const titleCase = (s) => (s || '').split(/\s+/).map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+
+  // Shared Plotly styling — transparent bg so section paper shows through,
+  // muted grid, serif-forward chart titles to echo the display font.
+  const THEME_FONT   = 'ui-sans-serif, system-ui, -apple-system, "Segoe UI", Inter, sans-serif';
+  const THEME_INK    = '#0f172a';
+  const THEME_INK2   = '#475569';
+  const THEME_MUTED  = '#94a3b8';
+  const THEME_RULE   = '#e5e0d3';
+  const PALETTE = {
+    green:      '#0e7c4b',
+    greenLight: '#3fa675',
+    blue:       '#1f6feb',
+    purple:     '#7e57c2',
+    pink:       '#ec407a',
+    ink:        '#0f172a',
+    rust:       '#b45309',
+    grey:       '#94a3b8',
+    red:        '#c1392b',
+  };
   const CAT_COLOR = {
-    "Data, Analytics & AI":     "#1f6feb",
-    "Software & Programming":   "#059669",
-    "Cloud & DevOps":           "#7e57c2",
-    "Engineering (Industrial)": "#ec407a",
+    "Data, Analytics & AI":     PALETTE.blue,
+    "Software & Programming":   PALETTE.green,
+    "Cloud & DevOps":           PALETTE.purple,
+    "Engineering (Industrial)": PALETTE.pink,
   };
   const BAND_COLOR = {
-    "0-1 yr (entry)":  "#13a356",
-    "2-3 yr":          "#1f6feb",
-    "4-5 yr":          "#7e57c2",
-    "6-10 yr":         "#ec407a",
-    "10+ yr (senior)": "#0b1320",
+    "0-1 yr (entry)":  PALETTE.greenLight,
+    "2-3 yr":          PALETTE.green,
+    "4-5 yr":          PALETTE.blue,
+    "6-10 yr":         PALETTE.purple,
+    "10+ yr (senior)": PALETTE.ink,
   };
   const trendGlyph = (g) => (g == null) ? "" : (g >= 2 ? "▲▲" : g >= 1.25 ? "▲" : g <= 0.5 ? "▼" : "•");
+  const baseLayout = () => ({
+    plot_bgcolor: 'rgba(0,0,0,0)',
+    paper_bgcolor: 'rgba(0,0,0,0)',
+    font: { family: THEME_FONT, color: THEME_INK, size: 13 },
+    margin: { l: 130, r: 30, t: 20, b: 50 },
+    xaxis: { gridcolor: THEME_RULE, zerolinecolor: THEME_RULE, tickfont: { color: THEME_INK2 }, titlefont: { color: THEME_INK2, size: 12 } },
+    yaxis: { gridcolor: 'transparent', zeroline: false, tickfont: { color: THEME_INK, size: 13 } },
+  });
 
-  // ---- 1. Salary map (v1: horizontal bar) ----
+  // ---- Hero stats (pull from datasets we already have) ----
   {
-    const s = (data.salary_by_state || []).slice().sort((a,b) => (a.median_salary||0) - (b.median_salary||0));
-    Plotly.newPlot("chart-salary", [
-      {
-        type: "bar", orientation: "h",
-        x: s.map(r => r.median_salary),
-        y: s.map(r => r.state_name),
-        marker: { color: "#1f6feb" },
-        error_x: {
-          type: "data",
-          symmetric: false,
-          array: s.map(r => (r.p75_salary || 0) - (r.median_salary || 0)),
-          arrayminus: s.map(r => (r.median_salary || 0) - (r.p25_salary || 0)),
-          color: "#94a3b8", thickness: 1.4,
-        },
-        customdata: s.map(r => [r.postings_with_salary, r.p25_salary, r.p75_salary]),
-        hovertemplate: "<b>%{y}</b><br>median: ₦%{x:,.0f}<br>p25–p75: ₦%{customdata[1]:,.0f} – ₦%{customdata[2]:,.0f}<br>n=%{customdata[0]} salaried listings<extra></extra>",
-      }
-    ], {
-      title: { text: "Median monthly salary by state (with interquartile range)" },
-      margin: { l: 130, r: 40, t: 60, b: 50 },
-      xaxis: { title: { text: "Median salary (₦/month)" }, tickformat: ",.0f" },
-      plot_bgcolor: "#fff", paper_bgcolor: "#fff",
-      font: { family: "Inter, system-ui, sans-serif" },
-    }, { displayModeBar: false, responsive: true });
+    const bands = data.experience_bands || [];
+    const totalPostings = bands.reduce((a, b) => a + (b.postings || 0), 0);
+    const employers = (data.top_companies || []).length;
+    const states = (data.salary_by_state || []).length;
+    const entry = bands.find(r => r.band === "0-1 yr (entry)");
+    const setText = (id, v) => { const el = document.getElementById(id); if (el) el.textContent = v; };
+    setText('hero-postings',  fmt(totalPostings));
+    setText('hero-employers', fmt(employers));
+    setText('hero-states',    fmt(states));
+    setText('hero-entry',     entry ? entry.pct_of_specified.toFixed(1) + '%' : '—');
   }
 
-  // ---- 2. Top companies table ----
+  // ---- 1. Salary by state (horizontal bar, IQR error bars) ----
+  {
+    const s = (data.salary_by_state || []).slice().sort((a,b) => (a.median_salary||0) - (b.median_salary||0));
+    const layout = baseLayout();
+    layout.margin.l = 130;
+    layout.xaxis.title = { text: 'Median monthly salary (₦)', font: { color: THEME_INK2, size: 12 } };
+    layout.xaxis.tickformat = ',.0f';
+    Plotly.newPlot('chart-salary', [
+      {
+        type: 'bar', orientation: 'h',
+        x: s.map(r => r.median_salary),
+        y: s.map(r => r.state_name),
+        marker: { color: PALETTE.green, line: { width: 0 } },
+        error_x: {
+          type: 'data', symmetric: false,
+          array:      s.map(r => (r.p75_salary || 0) - (r.median_salary || 0)),
+          arrayminus: s.map(r => (r.median_salary || 0) - (r.p25_salary || 0)),
+          color: PALETTE.grey, thickness: 1.4, width: 4,
+        },
+        customdata: s.map(r => [r.postings_with_salary, r.p25_salary, r.p75_salary]),
+        hovertemplate: '<b>%{y}</b><br>median: ₦%{x:,.0f}<br>p25–p75: ₦%{customdata[1]:,.0f} – ₦%{customdata[2]:,.0f}<br>n=%{customdata[0]} salaried listings<extra></extra>',
+      }
+    ], layout, { displayModeBar: false, responsive: true });
+  }
+
+  // ---- 2. Employers table ----
   {
     const cs = data.top_companies || [];
     const rows = cs.map((c, i) => `
       <tr>
         <td class="rank">${i+1}</td>
-        <td><strong>${c.display_name}</strong></td>
+        <td class="co-name">${c.display_name}</td>
         <td class="num">${fmt(c.postings)}</td>
-        <td style="color:#334155">${(c.top_titles || []).slice(0,3).map(titleCase).join(" · ") || "—"}</td>
+        <td style="color: var(--ink-2)">${(c.top_titles || []).slice(0,3).map(titleCase).join(" · ") || "—"}</td>
         <td>${c.top_state || "—"}</td>
-        <td class="num" style="color:#64748b">${fmt(c.with_salary)}</td>
+        <td class="num" style="color: var(--muted)">${fmt(c.with_salary)}</td>
       </tr>
     `).join("");
     document.getElementById("table-companies").innerHTML = `
@@ -174,34 +419,33 @@
     `;
   }
 
-  // ---- 3. Experience-band chart + callouts ----
+  // ---- 3. Experience-band + callouts ----
   {
     const bands = (data.experience_bands || []).filter(r => r.band !== "unspecified");
+    const layout = baseLayout();
+    layout.xaxis.title = { text: '% of postings that state a level', font: { color: THEME_INK2, size: 12 } };
+    layout.xaxis.ticksuffix = '%';
+    layout.yaxis.categoryorder = 'array';
+    layout.yaxis.categoryarray = bands.map(r => r.band);
     Plotly.newPlot("chart-experience", [
       {
         type: "bar", orientation: "h",
         x: bands.map(r => r.pct_of_specified),
         y: bands.map(r => r.band),
-        marker: { color: bands.map(r => BAND_COLOR[r.band] || "#888") },
+        marker: { color: bands.map(r => BAND_COLOR[r.band] || "#888"), line: { width: 0 } },
         text: bands.map(r => r.pct_of_specified.toFixed(1) + "%"),
         textposition: "auto",
+        textfont: { color: '#ffffff', size: 13 },
         customdata: bands.map(r => r.postings),
         hovertemplate: "<b>%{y}</b><br>%{customdata:,d} postings (%{x}% of postings that specify)<extra></extra>",
       }
-    ], {
-      title: { text: "Required experience — % of postings that state their level" },
-      margin: { l: 130, r: 30, t: 60, b: 50 },
-      xaxis: { title: { text: "% of postings that specify" }, ticksuffix: "%" },
-      yaxis: { categoryorder: "array", categoryarray: bands.map(r => r.band) },
-      plot_bgcolor: "#fff", paper_bgcolor: "#fff",
-      font: { family: "Inter, system-ui, sans-serif" },
-    }, { displayModeBar: false, responsive: true });
+    ], layout, { displayModeBar: false, responsive: true });
 
     const entry = bands.find(r => r.band === "0-1 yr (entry)");
     const unspec = (data.experience_bands || []).find(r => r.band === "unspecified");
     document.getElementById("stats-experience").innerHTML = [
-      entry && `<div class="stat"><div class="k">Truly entry-level</div><div class="v">${entry.pct_of_specified.toFixed(1)}%</div><div class="s">of postings that state a requirement ask for 0–1 years (${fmt(entry.postings)} listings)</div></div>`,
-      unspec && `<div class="stat"><div class="k">Caveat</div><div class="v">${unspec.pct_of_all.toFixed(1)}%</div><div class="s">of all postings (${fmt(unspec.postings)}) don't state a requirement at all</div></div>`,
+      entry && `<div class="stat win"><div class="k">Truly entry-level</div><div class="v">${entry.pct_of_specified.toFixed(1)}%</div><div class="s">of postings that state a requirement ask for 0–1 years (${fmt(entry.postings)} listings)</div></div>`,
+      unspec && `<div class="stat warn"><div class="k">Coverage caveat</div><div class="v">${unspec.pct_of_all.toFixed(1)}%</div><div class="s">of all postings (${fmt(unspec.postings)}) don't state a requirement at all — they're excluded from this chart</div></div>`,
     ].filter(Boolean).join("");
   }
 
@@ -209,6 +453,9 @@
   {
     const ts = (data.top_titles || []).slice().sort((a,b) => a.postings - b.postings);
     const labels = ts.map(r => titleCase(r.title) + " " + trendGlyph(r.growth_ratio_wow));
+    const layout = baseLayout();
+    layout.margin.l = 210;
+    layout.xaxis.title = { text: 'Total postings observed', font: { color: THEME_INK2, size: 12 } };
     Plotly.newPlot("chart-titles", [
       {
         type: "bar", orientation: "h",
@@ -217,44 +464,36 @@
         marker: {
           color: ts.map(r => {
             const g = r.growth_ratio_wow;
-            if (g == null) return "#94a3b8";
-            if (g >= 2)    return "#059669";
-            if (g >= 1.25) return "#13a356";
-            if (g <= 0.5)  return "#dc2626";
-            return "#1f6feb";
+            if (g == null)   return PALETTE.grey;
+            if (g >= 2)      return PALETTE.green;
+            if (g >= 1.25)   return PALETTE.greenLight;
+            if (g <= 0.5)    return PALETTE.red;
+            return PALETTE.blue;
           }),
+          line: { width: 0 },
         },
         customdata: ts.map(r => [r.recent_postings, r.previous_postings, r.growth_ratio_wow == null ? "—" : r.growth_ratio_wow.toFixed(2)]),
         hovertemplate: "<b>%{y}</b><br>%{x} postings<br>last 7d: %{customdata[0]} · prior 7d: %{customdata[1]} · growth ×%{customdata[2]}<extra></extra>",
       }
-    ], {
-      title: { text: "Top 10 job titles · ▲ rising · ▼ falling · • steady" },
-      margin: { l: 210, r: 30, t: 60, b: 50 },
-      xaxis: { title: { text: "Postings (all-time)" } },
-      plot_bgcolor: "#fff", paper_bgcolor: "#fff",
-      font: { family: "Inter, system-ui, sans-serif" },
-    }, { displayModeBar: false, responsive: true });
+    ], layout, { displayModeBar: false, responsive: true });
   }
 
   // ---- 5. Top 10 technical skills ----
   {
     const ss = (data.top_tech_skills || []).slice().sort((a,b) => a.postings - b.postings);
+    const layout = baseLayout();
+    layout.margin.l = 200;
+    layout.xaxis.title = { text: 'Postings mentioning this skill', font: { color: THEME_INK2, size: 12 } };
     Plotly.newPlot("chart-tech", [
       {
         type: "bar", orientation: "h",
         x: ss.map(r => r.postings),
         y: ss.map(r => r.skill_name),
-        marker: { color: ss.map(r => CAT_COLOR[r.category] || "#888") },
+        marker: { color: ss.map(r => CAT_COLOR[r.category] || "#888"), line: { width: 0 } },
         customdata: ss.map(r => r.category),
         hovertemplate: "<b>%{y}</b><br>%{x} postings<br>category: %{customdata}<extra></extra>",
       }
-    ], {
-      title: { text: "Top 10 technical skills in demand" },
-      margin: { l: 200, r: 30, t: 60, b: 50 },
-      xaxis: { title: { text: "Postings mentioning this skill" } },
-      plot_bgcolor: "#fff", paper_bgcolor: "#fff",
-      font: { family: "Inter, system-ui, sans-serif" },
-    }, { displayModeBar: false, responsive: true });
+    ], layout, { displayModeBar: false, responsive: true });
   }
 
 })();

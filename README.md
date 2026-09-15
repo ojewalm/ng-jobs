@@ -6,10 +6,10 @@ Daily infographics on the Nigerian labour market.
 
 ## What this is
 
-Five snapshots built from public job listings across MyJobMag and Jobberman:
+Five snapshots derived from public Nigerian job listings:
 
 1. **The Nigerian salary map** — median monthly salary by state, with p25/p75 range
-2. **Who's actually hiring in Nigeria** — top 25 companies + their most-posted roles
+2. **Who's actually hiring in Nigeria** — top 25 employers + their most-posted roles
 3. **The entry-level squeeze** — % of postings by required-experience band
 4. **Top 10 job titles by volume** — with week-over-week rise/fall arrows
 5. **Top 10 technical skills employers ask for** — Data / Software / Cloud / Engineering
