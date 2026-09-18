@@ -4,8 +4,8 @@
       "state_code": "RI",
       "state_name": "Rivers",
       "zone": "SS",
-      "postings_total": 1286,
-      "postings_with_salary": 58,
+      "postings_total": 1300,
+      "postings_with_salary": 60,
       "median_salary": 250000.0,
       "p25_salary": 125000.0,
       "p75_salary": 350000.0
@@ -14,7 +14,7 @@
       "state_code": "KN",
       "state_name": "Kano",
       "zone": "NW",
-      "postings_total": 323,
+      "postings_total": 324,
       "postings_with_salary": 23,
       "median_salary": 250000.0,
       "p25_salary": 175000.0,
@@ -24,8 +24,8 @@
       "state_code": "LA",
       "state_name": "Lagos",
       "zone": "SW",
-      "postings_total": 14967,
-      "postings_with_salary": 2454,
+      "postings_total": 15149,
+      "postings_with_salary": 2472,
       "median_salary": 200000.0,
       "p25_salary": 125000.0,
       "p75_salary": 325000.0
@@ -44,7 +44,7 @@
       "state_code": "AB",
       "state_name": "Abia",
       "zone": "SE",
-      "postings_total": 460,
+      "postings_total": 463,
       "postings_with_salary": 40,
       "median_salary": 175000.0,
       "p25_salary": 125000.0,
@@ -54,8 +54,8 @@
       "state_code": "AN",
       "state_name": "Anambra",
       "zone": "SE",
-      "postings_total": 437,
-      "postings_with_salary": 36,
+      "postings_total": 439,
+      "postings_with_salary": 37,
       "median_salary": 175000.0,
       "p25_salary": 125000.0,
       "p75_salary": 250000.0
@@ -64,7 +64,7 @@
       "state_code": "EN",
       "state_name": "Enugu",
       "zone": "SE",
-      "postings_total": 552,
+      "postings_total": 554,
       "postings_with_salary": 38,
       "median_salary": 175000.0,
       "p25_salary": 125000.0,
@@ -74,8 +74,8 @@
       "state_code": "FC",
       "state_name": "FCT",
       "zone": "NC",
-      "postings_total": 3368,
-      "postings_with_salary": 609,
+      "postings_total": 3427,
+      "postings_with_salary": 612,
       "median_salary": 175000.0,
       "p25_salary": 125000.0,
       "p75_salary": 250000.0
@@ -84,8 +84,8 @@
       "state_code": "OG",
       "state_name": "Ogun",
       "zone": "SW",
-      "postings_total": 929,
-      "postings_with_salary": 144,
+      "postings_total": 936,
+      "postings_with_salary": 146,
       "median_salary": 175000.0,
       "p25_salary": 125000.0,
       "p75_salary": 250000.0
@@ -94,7 +94,7 @@
       "state_code": "ED",
       "state_name": "Edo",
       "zone": "SS",
-      "postings_total": 573,
+      "postings_total": 575,
       "postings_with_salary": 35,
       "median_salary": 125000.0,
       "p25_salary": 75000.0,
@@ -104,7 +104,7 @@
       "state_code": "BE",
       "state_name": "Benue",
       "zone": "NC",
-      "postings_total": 137,
+      "postings_total": 138,
       "postings_with_salary": 22,
       "median_salary": 125000.0,
       "p25_salary": 125000.0,
@@ -114,7 +114,7 @@
       "state_code": "AK",
       "state_name": "Akwa Ibom",
       "zone": "SS",
-      "postings_total": 353,
+      "postings_total": 355,
       "postings_with_salary": 27,
       "median_salary": 125000.0,
       "p25_salary": 75000.0,
@@ -124,8 +124,8 @@
       "state_code": "OY",
       "state_name": "Oyo",
       "zone": "SW",
-      "postings_total": 815,
-      "postings_with_salary": 88,
+      "postings_total": 880,
+      "postings_with_salary": 89,
       "median_salary": 125000.0,
       "p25_salary": 75000.0,
       "p75_salary": 175000.0
@@ -134,7 +134,7 @@
       "state_code": "IM",
       "state_name": "Imo",
       "zone": "SE",
-      "postings_total": 191,
+      "postings_total": 193,
       "postings_with_salary": 22,
       "median_salary": 117500.0,
       "p25_salary": 110000.0,
@@ -145,22 +145,22 @@
     {
       "company_key": "Ascentech Services Limited",
       "display_name": "Ascentech Services Limited",
-      "postings": 318,
+      "postings": 320,
       "top_titles": [
+        "sales executive",
         "electrical engineer",
-        "driver",
-        "sales executive"
+        "driver"
       ],
       "top_state": "Lagos",
-      "with_salary": 71
+      "with_salary": 72
     },
     {
       "company_key": "Dangote",
       "display_name": "Dangote",
-      "postings": 288,
+      "postings": 295,
       "top_titles": [
         "logistics officer",
-        "technician mechanical l",
+        "general manager production",
         "chemical engineer"
       ],
       "top_state": "Lagos",
@@ -181,13 +181,13 @@
     {
       "company_key": "Sun King Formerly Greenlight Planet ",
       "display_name": "Sun King Formerly Greenlight Planet ",
-      "postings": 186,
+      "postings": 184,
       "top_titles": [
         "area business manager",
         "store executive",
         "store executive ohafia"
       ],
-      "top_state": "Lagos",
+      "top_state": "Delta",
       "with_salary": 0
     },
     {
@@ -205,10 +205,10 @@
     {
       "company_key": "Domeo Resources International DRI",
       "display_name": "Domeo Resources International DRI",
-      "postings": 147,
+      "postings": 145,
       "top_titles": [
-        "cctv operative",
-        "mixologist",
+        "chief security officer",
+        "head mixologist",
         "sous chef"
       ],
       "top_state": "Abia",
@@ -217,7 +217,7 @@
     {
       "company_key": "TeamAce Limited",
       "display_name": "TeamAce Limited",
-      "postings": 116,
+      "postings": 117,
       "top_titles": [
         "graduate",
         "sales executive",
@@ -231,9 +231,9 @@
       "display_name": "Federal University of Health Sciences and Technology Tsafe FUHSATT",
       "postings": 110,
       "top_titles": [
-        "lecturer clinical pharmacy and pharmacy practice",
-        "lecturer pharmacology and toxicology",
-        "lecturer data sciences"
+        "lecturer medical laboratory sciences",
+        "lecturer human nutrition and dietetics",
+        "lecturer pharmacology and toxicology"
       ],
       "top_state": "Zamfara",
       "with_salary": 0
@@ -253,11 +253,11 @@
     {
       "company_key": "Stanbic IBTC",
       "display_name": "Stanbic IBTC",
-      "postings": 99,
+      "postings": 97,
       "top_titles": [
         "banker business",
-        "banker business oyo",
-        "business banker enterprise banking"
+        "banker business ondo",
+        "manager relationship commercial banking"
       ],
       "top_state": "Lagos",
       "with_salary": 0
@@ -277,10 +277,10 @@
     {
       "company_key": "FMR AGENCY",
       "display_name": "FMR AGENCY",
-      "postings": 94,
+      "postings": 95,
       "top_titles": [
+        "human resources assistant",
         "social media manager",
-        "procurement officer",
         "human resource officer"
       ],
       "top_state": "Lagos",
@@ -291,9 +291,9 @@
       "display_name": "LEAM Consulting Limited",
       "postings": 92,
       "top_titles": [
+        "content creator editor",
         "registered nurse",
-        "sales representative",
-        "content creator editor"
+        "sales representative"
       ],
       "top_state": "Oyo",
       "with_salary": 6
@@ -311,39 +311,39 @@
       "with_salary": 0
     },
     {
-      "company_key": "Flour Mills of Nigeria Plc",
-      "display_name": "Flour Mills of Nigeria Plc",
-      "postings": 89,
-      "top_titles": [
-        "auto electrician fmn holdings limited golden transport company",
-        "diesel mechanic fmn holdings limited golden transport company",
-        "head of technical maintenance fmn agro"
-      ],
-      "top_state": "Lagos",
-      "with_salary": 0
-    },
-    {
-      "company_key": "PalmPay",
-      "display_name": "PalmPay",
-      "postings": 87,
-      "top_titles": [
-        "field verification officer",
-        "business developer",
-        "quality assurance officer"
-      ],
-      "top_state": "Lagos",
-      "with_salary": 27
-    },
-    {
       "company_key": "Dragnet Nigeria",
       "display_name": "Dragnet Nigeria",
       "postings": 85,
       "top_titles": [
         "nursing officer",
-        "assistant chief nursing officer",
+        "physiotherapist",
         "medical officer dentistry"
       ],
       "top_state": "FCT",
+      "with_salary": 0
+    },
+    {
+      "company_key": "PalmPay",
+      "display_name": "PalmPay",
+      "postings": 84,
+      "top_titles": [
+        "business developer",
+        "field verification officer",
+        "loan sales officer osun"
+      ],
+      "top_state": "Lagos",
+      "with_salary": 27
+    },
+    {
+      "company_key": "Flour Mills of Nigeria Plc",
+      "display_name": "Flour Mills of Nigeria Plc",
+      "postings": 84,
+      "top_titles": [
+        "diesel mechanic fmn holdings limited golden transport company",
+        "auto electrician fmn holdings limited golden transport company",
+        "risk control manager fmn holdings"
+      ],
+      "top_state": "Lagos",
       "with_salary": 0
     },
     {
@@ -351,9 +351,9 @@
       "display_name": "Godfrey Okoye University Teaching Hospital",
       "postings": 83,
       "top_titles": [
-        "house officer",
         "resident doctor",
-        "medical lab scientist"
+        "house officer",
+        "registrar"
       ],
       "top_state": "Enugu",
       "with_salary": 0
@@ -361,11 +361,11 @@
     {
       "company_key": "Amaiden Energy Nigeria",
       "display_name": "Amaiden Energy Nigeria",
-      "postings": 76,
+      "postings": 78,
       "top_titles": [
-        "engineering instrumentation and controls engineer",
-        "safety engineer",
-        "operations electrical maintenance technician"
+        "engineering mechanical technician",
+        "operations electrical maintenance technician",
+        "production superintendent"
       ],
       "top_state": "Lagos",
       "with_salary": 0
@@ -376,8 +376,8 @@
       "postings": 74,
       "top_titles": [
         "driver",
-        "research technician",
-        "utility manager"
+        "utility manager",
+        "research technician"
       ],
       "top_state": "Oyo",
       "with_salary": 0
@@ -385,7 +385,7 @@
     {
       "company_key": "Aldelia Limited",
       "display_name": "Aldelia Limited",
-      "postings": 73,
+      "postings": 74,
       "top_titles": [
         "quantity surveyor",
         "partnership manager",
@@ -397,11 +397,11 @@
     {
       "company_key": "MTN Nigeria",
       "display_name": "MTN Nigeria",
-      "postings": 72,
+      "postings": 73,
       "top_titles": [
         "sales and trade development",
-        "head business development",
-        "account partner ebu sales enterprise business"
+        "analyst new market",
+        "general manager regulatory affairs corporate services and sustainability"
       ],
       "top_state": "Lagos",
       "with_salary": 0
@@ -419,6 +419,18 @@
       "with_salary": 0
     },
     {
+      "company_key": "KolaDaisi University",
+      "display_name": "KolaDaisi University",
+      "postings": 62,
+      "top_titles": [
+        "lecturer",
+        "professor",
+        "reader"
+      ],
+      "top_state": "Oyo",
+      "with_salary": 0
+    },
+    {
       "company_key": "Achievers University, Owo",
       "display_name": "Achievers University, Owo",
       "postings": 62,
@@ -429,144 +441,132 @@
       ],
       "top_state": "Ondo",
       "with_salary": 0
-    },
-    {
-      "company_key": "Swift Consulting",
-      "display_name": "Swift Consulting",
-      "postings": 58,
-      "top_titles": [
-        "cashier",
-        "security guard",
-        "account officer"
-      ],
-      "top_state": "Lagos",
-      "with_salary": 40
     }
   ],
   "experience_bands": [
     {
       "band": "0-1 yr (entry)",
       "ord": 1,
-      "postings": 2571,
+      "postings": 2607,
       "pct_of_specified": 14.4,
-      "pct_of_all": 7.6
+      "pct_of_all": 7.7
     },
     {
       "band": "2-3 yr",
       "ord": 2,
-      "postings": 8131,
-      "pct_of_specified": 45.5,
+      "postings": 8232,
+      "pct_of_specified": 45.4,
       "pct_of_all": 24.2
     },
     {
       "band": "4-5 yr",
       "ord": 3,
-      "postings": 3878,
-      "pct_of_specified": 21.7,
+      "postings": 3926,
+      "pct_of_specified": 21.6,
       "pct_of_all": 11.5
     },
     {
       "band": "6-10 yr",
       "ord": 4,
-      "postings": 2693,
-      "pct_of_specified": 15.1,
-      "pct_of_all": 8.0
+      "postings": 2750,
+      "pct_of_specified": 15.2,
+      "pct_of_all": 8.1
     },
     {
       "band": "10+ yr (senior)",
       "ord": 5,
-      "postings": 595,
-      "pct_of_specified": 3.3,
-      "pct_of_all": 1.8
+      "postings": 631,
+      "pct_of_specified": 3.5,
+      "pct_of_all": 1.9
     },
     {
       "band": "unspecified",
       "ord": 99,
-      "postings": 15748,
+      "postings": 15894,
       "pct_of_specified": 0.0,
-      "pct_of_all": 46.8
+      "pct_of_all": 46.7
     }
   ],
   "top_titles": [
     {
-      "title": "accountant",
-      "postings": 361,
-      "rank": 1,
-      "growth_ratio_wow": 0.75,
-      "recent_postings": 18,
-      "previous_postings": 24
-    },
-    {
       "title": "lecturer",
-      "postings": 345,
-      "rank": 2,
-      "growth_ratio_wow": 0.0,
-      "recent_postings": 0,
+      "postings": 380,
+      "rank": 1,
+      "growth_ratio_wow": 0.9,
+      "recent_postings": 35,
       "previous_postings": 39
     },
     {
+      "title": "accountant",
+      "postings": 365,
+      "rank": 2,
+      "growth_ratio_wow": 1.57,
+      "recent_postings": 22,
+      "previous_postings": 14
+    },
+    {
       "title": "driver",
-      "postings": 284,
+      "postings": 288,
       "rank": 3,
-      "growth_ratio_wow": 0.89,
-      "recent_postings": 25,
-      "previous_postings": 28
+      "growth_ratio_wow": 1.93,
+      "recent_postings": 29,
+      "previous_postings": 15
     },
     {
       "title": "executive assistant",
       "postings": 193,
       "rank": 4,
-      "growth_ratio_wow": 2.13,
+      "growth_ratio_wow": 2.43,
       "recent_postings": 17,
-      "previous_postings": 8
+      "previous_postings": 7
     },
     {
       "title": "sales executive",
-      "postings": 186,
+      "postings": 192,
       "rank": 5,
-      "growth_ratio_wow": 1.0,
-      "recent_postings": 14,
-      "previous_postings": 14
+      "growth_ratio_wow": 2.0,
+      "recent_postings": 20,
+      "previous_postings": 10
     },
     {
       "title": "front desk officer",
-      "postings": 146,
+      "postings": 148,
       "rank": 6,
-      "growth_ratio_wow": 1.67,
-      "recent_postings": 10,
-      "previous_postings": 6
+      "growth_ratio_wow": 4.0,
+      "recent_postings": 12,
+      "previous_postings": 3
     },
     {
       "title": "business development manager",
-      "postings": 130,
+      "postings": 132,
       "rank": 7,
-      "growth_ratio_wow": 0.4,
-      "recent_postings": 6,
-      "previous_postings": 15
+      "growth_ratio_wow": 0.67,
+      "recent_postings": 8,
+      "previous_postings": 12
     },
     {
       "title": "mathematics teacher",
-      "postings": 127,
+      "postings": 129,
       "rank": 8,
-      "growth_ratio_wow": 0.6,
-      "recent_postings": 9,
-      "previous_postings": 15
+      "growth_ratio_wow": 1.0,
+      "recent_postings": 11,
+      "previous_postings": 11
     },
     {
       "title": "sales representative",
-      "postings": 110,
+      "postings": 114,
       "rank": 9,
-      "growth_ratio_wow": 0.6,
-      "recent_postings": 6,
-      "previous_postings": 10
+      "growth_ratio_wow": 1.43,
+      "recent_postings": 10,
+      "previous_postings": 7
     },
     {
       "title": "human resources officer",
       "postings": 110,
       "rank": 10,
-      "growth_ratio_wow": 0.58,
+      "growth_ratio_wow": 1.0,
       "recent_postings": 7,
-      "previous_postings": 12
+      "previous_postings": 7
     }
   ],
   "top_tech_skills": [
@@ -574,70 +574,70 @@
       "skill_slug": "excel",
       "skill_name": "Microsoft Excel",
       "category": "Data, Analytics & AI",
-      "postings": 3750,
+      "postings": 3783,
       "rank": 1
     },
     {
       "skill_slug": "data-analysis",
       "skill_name": "Data Analysis",
       "category": "Data, Analytics & AI",
-      "postings": 1989,
+      "postings": 2020,
       "rank": 2
     },
     {
       "skill_slug": "qaqc",
       "skill_name": "QA/QC",
       "category": "Engineering (Industrial)",
-      "postings": 1980,
+      "postings": 2012,
       "rank": 3
     },
     {
       "skill_slug": "networking",
       "skill_name": "Networking",
       "category": "Cloud & DevOps",
-      "postings": 1125,
+      "postings": 1137,
       "rank": 4
     },
     {
       "skill_slug": "quality-control",
       "skill_name": "Quality Control",
       "category": "Engineering (Industrial)",
-      "postings": 1002,
+      "postings": 1013,
       "rank": 5
     },
     {
       "skill_slug": "machine-learning",
       "skill_name": "Machine Learning",
       "category": "Data, Analytics & AI",
-      "postings": 668,
+      "postings": 673,
       "rank": 6
     },
     {
       "skill_slug": "cost-control",
       "skill_name": "Cost Control",
       "category": "Engineering (Industrial)",
-      "postings": 616,
+      "postings": 628,
       "rank": 7
     },
     {
       "skill_slug": "maintenance",
       "skill_name": "Mechanical Maintenance",
       "category": "Engineering (Industrial)",
-      "postings": 611,
+      "postings": 620,
       "rank": 8
     },
     {
       "skill_slug": "statistics",
       "skill_name": "Statistics",
       "category": "Data, Analytics & AI",
-      "postings": 519,
+      "postings": 525,
       "rank": 9
     },
     {
       "skill_slug": "sql",
       "skill_name": "SQL",
       "category": "Data, Analytics & AI",
-      "postings": 440,
+      "postings": 444,
       "rank": 10
     }
   ]
