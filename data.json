@@ -24,8 +24,8 @@
       "state_code": "LA",
       "state_name": "Lagos",
       "zone": "SW",
-      "postings_total": 15363,
-      "postings_with_salary": 2493,
+      "postings_total": 15367,
+      "postings_with_salary": 2494,
       "median_salary": 200000.0,
       "p25_salary": 125000.0,
       "p75_salary": 325000.0
@@ -34,7 +34,7 @@
       "state_code": "NI",
       "state_name": "Niger",
       "zone": "NC",
-      "postings_total": 412,
+      "postings_total": 413,
       "postings_with_salary": 110,
       "median_salary": 200000.0,
       "p25_salary": 110000.0,
@@ -124,7 +124,7 @@
       "state_code": "OY",
       "state_name": "Oyo",
       "zone": "SW",
-      "postings_total": 905,
+      "postings_total": 906,
       "postings_with_salary": 89,
       "median_salary": 125000.0,
       "p25_salary": 75000.0,
@@ -454,7 +454,7 @@
     {
       "band": "2-3 yr",
       "ord": 2,
-      "postings": 8359,
+      "postings": 8360,
       "pct_of_specified": 45.4,
       "pct_of_all": 24.2
     },
@@ -468,7 +468,7 @@
     {
       "band": "6-10 yr",
       "ord": 4,
-      "postings": 2779,
+      "postings": 2780,
       "pct_of_specified": 15.1,
       "pct_of_all": 8.0
     },
@@ -482,7 +482,7 @@
     {
       "band": "unspecified",
       "ord": 99,
-      "postings": 16133,
+      "postings": 16139,
       "pct_of_specified": 0.0,
       "pct_of_all": 46.7
     }
@@ -574,7 +574,7 @@
       "skill_slug": "excel",
       "skill_name": "Microsoft Excel",
       "category": "Data, Analytics & AI",
-      "postings": 3840,
+      "postings": 3841,
       "rank": 1
     },
     {
@@ -588,7 +588,7 @@
       "skill_slug": "qaqc",
       "skill_name": "QA/QC",
       "category": "Engineering (Industrial)",
-      "postings": 2031,
+      "postings": 2032,
       "rank": 3
     },
     {
@@ -602,21 +602,21 @@
       "skill_slug": "quality-control",
       "skill_name": "Quality Control",
       "category": "Engineering (Industrial)",
-      "postings": 1022,
+      "postings": 1023,
       "rank": 5
     },
     {
       "skill_slug": "machine-learning",
       "skill_name": "Machine Learning",
       "category": "Data, Analytics & AI",
-      "postings": 678,
+      "postings": 679,
       "rank": 6
     },
     {
       "skill_slug": "cost-control",
       "skill_name": "Cost Control",
       "category": "Engineering (Industrial)",
-      "postings": 635,
+      "postings": 636,
       "rank": 7
     },
     {
