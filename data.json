@@ -24,8 +24,8 @@
       "state_code": "LA",
       "state_name": "Lagos",
       "zone": "SW",
-      "postings_total": 15367,
-      "postings_with_salary": 2494,
+      "postings_total": 15373,
+      "postings_with_salary": 2495,
       "median_salary": 200000.0,
       "p25_salary": 125000.0,
       "p75_salary": 325000.0
@@ -74,7 +74,7 @@
       "state_code": "FC",
       "state_name": "FCT",
       "zone": "NC",
-      "postings_total": 3455,
+      "postings_total": 3457,
       "postings_with_salary": 616,
       "median_salary": 175000.0,
       "p25_salary": 125000.0,
@@ -114,7 +114,7 @@
       "state_code": "AK",
       "state_name": "Akwa Ibom",
       "zone": "SS",
-      "postings_total": 355,
+      "postings_total": 356,
       "postings_with_salary": 27,
       "median_salary": 125000.0,
       "p25_salary": 75000.0,
@@ -124,7 +124,7 @@
       "state_code": "OY",
       "state_name": "Oyo",
       "zone": "SW",
-      "postings_total": 906,
+      "postings_total": 907,
       "postings_with_salary": 89,
       "median_salary": 125000.0,
       "p25_salary": 75000.0,
@@ -145,19 +145,19 @@
     {
       "company_key": "Ascentech Services Limited",
       "display_name": "Ascentech Services Limited",
-      "postings": 309,
+      "postings": 293,
       "top_titles": [
         "electrical engineer",
         "sales executive",
         "driver"
       ],
       "top_state": "Lagos",
-      "with_salary": 64
+      "with_salary": 60
     },
     {
       "company_key": "Dangote",
       "display_name": "Dangote",
-      "postings": 287,
+      "postings": 281,
       "top_titles": [
         "logistics officer",
         "general manager production",
@@ -169,7 +169,7 @@
     {
       "company_key": "Moniepoint Inc.",
       "display_name": "Moniepoint Inc.",
-      "postings": 235,
+      "postings": 231,
       "top_titles": [
         "implementation officer",
         "business relationship manager",
@@ -181,7 +181,7 @@
     {
       "company_key": "Sun King Formerly Greenlight Planet ",
       "display_name": "Sun King Formerly Greenlight Planet ",
-      "postings": 189,
+      "postings": 186,
       "top_titles": [
         "area business manager",
         "store executive",
@@ -191,24 +191,12 @@
       "with_salary": 0
     },
     {
-      "company_key": "Mudiame University",
-      "display_name": "Mudiame University",
-      "postings": 157,
-      "top_titles": [
-        "lecturer",
-        "technologist",
-        "professor"
-      ],
-      "top_state": "Edo",
-      "with_salary": 0
-    },
-    {
       "company_key": "Domeo Resources International DRI",
       "display_name": "Domeo Resources International DRI",
-      "postings": 144,
+      "postings": 140,
       "top_titles": [
         "chief security officer",
-        "restaurant manager",
+        "sous chef",
         "head mixologist"
       ],
       "top_state": "Abia",
@@ -217,11 +205,11 @@
     {
       "company_key": "TeamAce Limited",
       "display_name": "TeamAce Limited",
-      "postings": 122,
+      "postings": 115,
       "top_titles": [
         "graduate",
-        "sales executive",
-        "head of supply chain"
+        "head of supply chain",
+        "baker"
       ],
       "top_state": "Lagos",
       "with_salary": 33
@@ -231,8 +219,8 @@
       "display_name": "Federal University of Health Sciences and Technology Tsafe FUHSATT",
       "postings": 110,
       "top_titles": [
-        "lecturer haematology",
-        "lecturer mathematics",
+        "lecturer child dental health",
+        "lecturer medical laboratory sciences",
         "lecturer medical microbiology"
       ],
       "top_state": "Zamfara",
@@ -251,40 +239,28 @@
       "with_salary": 0
     },
     {
-      "company_key": "Stanbic IBTC",
-      "display_name": "Stanbic IBTC",
-      "postings": 95,
-      "top_titles": [
-        "banker business",
-        "banker business oyo",
-        "banker business ondo"
-      ],
-      "top_state": "Lagos",
-      "with_salary": 0
-    },
-    {
-      "company_key": "FMR AGENCY",
-      "display_name": "FMR AGENCY",
-      "postings": 93,
-      "top_titles": [
-        "social media manager",
-        "procurement officer",
-        "human resource officer"
-      ],
-      "top_state": "Lagos",
-      "with_salary": 13
-    },
-    {
       "company_key": "LEAM Consulting Limited",
       "display_name": "LEAM Consulting Limited",
       "postings": 92,
       "top_titles": [
-        "registered nurse",
         "sales representative",
+        "registered nurse",
         "content creator editor"
       ],
       "top_state": "Oyo",
       "with_salary": 6
+    },
+    {
+      "company_key": "Stanbic IBTC",
+      "display_name": "Stanbic IBTC",
+      "postings": 91,
+      "top_titles": [
+        "banker business",
+        "banker business ondo",
+        "business banker enterprise banking"
+      ],
+      "top_state": "Lagos",
+      "with_salary": 0
     },
     {
       "company_key": "UNIBEN",
@@ -303,7 +279,7 @@
       "display_name": "Aldelia Limited",
       "postings": 86,
       "top_titles": [
-        "radio radar operator",
+        "planning engineer",
         "partnership manager",
         "quantity surveyor"
       ],
@@ -311,40 +287,40 @@
       "with_salary": 0
     },
     {
-      "company_key": "Flour Mills of Nigeria Plc",
-      "display_name": "Flour Mills of Nigeria Plc",
-      "postings": 84,
+      "company_key": "FMR AGENCY",
+      "display_name": "FMR AGENCY",
+      "postings": 83,
       "top_titles": [
-        "auto electrician fmn holdings limited golden transport company",
-        "diesel mechanic fmn holdings limited golden transport company",
-        "supervisor fitting and fabrication fmn holdings"
+        "human resources assistant",
+        "procurement officer",
+        "social media manager"
       ],
       "top_state": "Lagos",
-      "with_salary": 0
+      "with_salary": 10
     },
     {
       "company_key": "Godfrey Okoye University Teaching Hospital",
       "display_name": "Godfrey Okoye University Teaching Hospital",
       "postings": 83,
       "top_titles": [
-        "house officer",
         "resident doctor",
-        "registrar"
+        "house officer",
+        "medical lab scientist"
       ],
       "top_state": "Enugu",
       "with_salary": 0
     },
     {
-      "company_key": "PalmPay",
-      "display_name": "PalmPay",
-      "postings": 80,
+      "company_key": "MTN Nigeria",
+      "display_name": "MTN Nigeria",
+      "postings": 79,
       "top_titles": [
-        "business developer",
-        "field verification officer",
-        "loan sales officer kaduna"
+        "sales and trade development",
+        "account partner ebu sales anambra state",
+        "account partner ebu sales asaba"
       ],
       "top_state": "Lagos",
-      "with_salary": 22
+      "with_salary": 0
     },
     {
       "company_key": "Dragnet Nigeria",
@@ -352,8 +328,8 @@
       "postings": 79,
       "top_titles": [
         "nursing officer",
-        "medical officer family medicine",
-        "medical officer dentistry"
+        "medical officer dentistry",
+        "assistant chief nursing officer"
       ],
       "top_state": "FCT",
       "with_salary": 0
@@ -363,21 +339,9 @@
       "display_name": "Amaiden Energy Nigeria",
       "postings": 79,
       "top_titles": [
-        "engineering mechanical technician",
         "safety engineer",
-        "production superintendent"
-      ],
-      "top_state": "Lagos",
-      "with_salary": 0
-    },
-    {
-      "company_key": "MTN Nigeria",
-      "display_name": "MTN Nigeria",
-      "postings": 79,
-      "top_titles": [
-        "sales and trade development",
-        "account partner ebu sales asaba",
-        "account partner ebu sales anambra state"
+        "projects contracts advisor",
+        "administrative administrative assistant"
       ],
       "top_state": "Lagos",
       "with_salary": 0
@@ -385,13 +349,25 @@
     {
       "company_key": "IITA - International Institute of Tropical Agriculture",
       "display_name": "IITA - International Institute of Tropical Agriculture",
-      "postings": 78,
+      "postings": 75,
       "top_titles": [
-        "driver",
         "research technician",
-        "utility manager"
+        "utility manager",
+        "primary school teacher"
       ],
       "top_state": "Oyo",
+      "with_salary": 0
+    },
+    {
+      "company_key": "Flour Mills of Nigeria Plc",
+      "display_name": "Flour Mills of Nigeria Plc",
+      "postings": 74,
+      "top_titles": [
+        "diesel mechanic fmn holdings limited golden transport company",
+        "auto electrician fmn holdings limited golden transport company",
+        "assistant manager marketing golden penny foods"
+      ],
+      "top_state": "Lagos",
       "with_salary": 0
     },
     {
@@ -400,11 +376,23 @@
       "postings": 68,
       "top_titles": [
         "lecturer",
-        "assistant lecturer",
-        "professor"
+        "professor",
+        "assistant lecturer"
       ],
       "top_state": "Osun",
       "with_salary": 0
+    },
+    {
+      "company_key": "PalmPay",
+      "display_name": "PalmPay",
+      "postings": 67,
+      "top_titles": [
+        "quality assurance officer",
+        "field verification officer",
+        "loan sales officer edo"
+      ],
+      "top_state": "Lagos",
+      "with_salary": 20
     },
     {
       "company_key": "KolaDaisi University",
@@ -419,13 +407,25 @@
       "with_salary": 0
     },
     {
+      "company_key": "Mudiame University",
+      "display_name": "Mudiame University",
+      "postings": 63,
+      "top_titles": [
+        "lecturer",
+        "technologist",
+        "professor"
+      ],
+      "top_state": "Edo",
+      "with_salary": 0
+    },
+    {
       "company_key": "The African Medical Centre of Excellence AMCE",
       "display_name": "The African Medical Centre of Excellence AMCE",
       "postings": 62,
       "top_titles": [
-        "neurosurgeon",
-        "regional business development officer enugu eastern nigeria",
-        "registrar emergency medicine"
+        "consultant interventional cardiologist",
+        "registrar emergency medicine",
+        "regional business development officer enugu eastern nigeria"
       ],
       "top_state": "FCT",
       "with_salary": 0
@@ -454,7 +454,7 @@
     {
       "band": "2-3 yr",
       "ord": 2,
-      "postings": 8360,
+      "postings": 8364,
       "pct_of_specified": 45.4,
       "pct_of_all": 24.2
     },
@@ -468,21 +468,21 @@
     {
       "band": "6-10 yr",
       "ord": 4,
-      "postings": 2780,
+      "postings": 2781,
       "pct_of_specified": 15.1,
       "pct_of_all": 8.0
     },
     {
       "band": "10+ yr (senior)",
       "ord": 5,
-      "postings": 637,
+      "postings": 638,
       "pct_of_specified": 3.5,
       "pct_of_all": 1.8
     },
     {
       "band": "unspecified",
       "ord": 99,
-      "postings": 16139,
+      "postings": 16146,
       "pct_of_specified": 0.0,
       "pct_of_all": 46.7
     }
@@ -513,28 +513,28 @@
       "previous_postings": 22
     },
     {
-      "title": "sales executive",
-      "postings": 194,
+      "title": "executive assistant",
+      "postings": 195,
       "rank": 4,
-      "growth_ratio_wow": 2.25,
-      "recent_postings": 18,
-      "previous_postings": 8
+      "growth_ratio_wow": 0.83,
+      "recent_postings": 10,
+      "previous_postings": 12
     },
     {
-      "title": "executive assistant",
-      "postings": 193,
+      "title": "sales executive",
+      "postings": 194,
       "rank": 5,
-      "growth_ratio_wow": 0.91,
-      "recent_postings": 10,
-      "previous_postings": 11
+      "growth_ratio_wow": 2.13,
+      "recent_postings": 17,
+      "previous_postings": 8
     },
     {
       "title": "front desk officer",
       "postings": 150,
       "rank": 6,
-      "growth_ratio_wow": 3.0,
-      "recent_postings": 12,
-      "previous_postings": 4
+      "growth_ratio_wow": 1.0,
+      "recent_postings": 8,
+      "previous_postings": 8
     },
     {
       "title": "business development manager",
@@ -556,9 +556,9 @@
       "title": "sales representative",
       "postings": 117,
       "rank": 9,
-      "growth_ratio_wow": 1.25,
-      "recent_postings": 10,
-      "previous_postings": 8
+      "growth_ratio_wow": 1.0,
+      "recent_postings": 9,
+      "previous_postings": 9
     },
     {
       "title": "human resources officer",
@@ -574,7 +574,7 @@
       "skill_slug": "excel",
       "skill_name": "Microsoft Excel",
       "category": "Data, Analytics & AI",
-      "postings": 3841,
+      "postings": 3845,
       "rank": 1
     },
     {
@@ -588,7 +588,7 @@
       "skill_slug": "qaqc",
       "skill_name": "QA/QC",
       "category": "Engineering (Industrial)",
-      "postings": 2032,
+      "postings": 2033,
       "rank": 3
     },
     {
@@ -616,14 +616,14 @@
       "skill_slug": "cost-control",
       "skill_name": "Cost Control",
       "category": "Engineering (Industrial)",
-      "postings": 636,
+      "postings": 637,
       "rank": 7
     },
     {
       "skill_slug": "maintenance",
       "skill_name": "Mechanical Maintenance",
       "category": "Engineering (Industrial)",
-      "postings": 627,
+      "postings": 628,
       "rank": 8
     },
     {
