@@ -34,8 +34,8 @@
       "state_code": "NI",
       "state_name": "Niger",
       "zone": "NC",
-      "postings_total": 456,
-      "postings_with_salary": 117,
+      "postings_total": 458,
+      "postings_with_salary": 119,
       "median_salary": 200000.0,
       "p25_salary": 110000.0,
       "p75_salary": 200000.0
@@ -175,25 +175,25 @@
       "with_salary": 48
     },
     {
-      "company_key": "Dangote",
-      "display_name": "Dangote",
-      "postings": 258,
+      "company_key": "Moniepoint Inc.",
+      "display_name": "Moniepoint Inc.",
+      "postings": 248,
       "top_titles": [
-        "general manager production",
-        "technician mechanical l",
-        "chemical engineer"
+        "implementation officer",
+        "business relationship manager",
+        "field credit officer"
       ],
       "top_state": "Lagos",
       "with_salary": 0
     },
     {
-      "company_key": "Moniepoint Inc.",
-      "display_name": "Moniepoint Inc.",
-      "postings": 249,
+      "company_key": "Dangote",
+      "display_name": "Dangote",
+      "postings": 240,
       "top_titles": [
-        "implementation officer",
-        "business relationship manager",
-        "field credit officer"
+        "general manager production",
+        "technician mechanical l",
+        "logistics officer"
       ],
       "top_state": "Lagos",
       "with_salary": 0
@@ -216,8 +216,8 @@
       "postings": 155,
       "top_titles": [
         "store executive",
-        "store executive ohafia",
-        "store executive nasarawa toto"
+        "store executive nasarawa toto",
+        "store executive lambatta"
       ],
       "top_state": "Delta",
       "with_salary": 0
@@ -227,7 +227,7 @@
       "display_name": "Domeo Resources International DRI",
       "postings": 131,
       "top_titles": [
-        "head mixologist",
+        "chief security officer",
         "sous chef",
         "cctv operative"
       ],
@@ -252,8 +252,8 @@
       "postings": 102,
       "top_titles": [
         "safety engineer",
-        "reservoir engineer",
-        "engineering mechanical technician"
+        "administrative administrative assistant",
+        "reservoir engineer"
       ],
       "top_state": "Lagos",
       "with_salary": 0
@@ -263,9 +263,9 @@
       "display_name": "Scruples Resources",
       "postings": 101,
       "top_titles": [
+        "mechanical services",
         "pigging specialist",
-        "inventory control analyst qit",
-        "mechanical services"
+        "inventory control analyst qit"
       ],
       "top_state": "Lagos",
       "with_salary": 0
@@ -275,9 +275,9 @@
       "display_name": "Aldelia Limited",
       "postings": 100,
       "top_titles": [
-        "partnership manager",
         "planning engineer",
-        "material assistant"
+        "material assistant",
+        "partnership manager"
       ],
       "top_state": "Lagos",
       "with_salary": 0
@@ -289,7 +289,7 @@
       "top_titles": [
         "state helpdesk officer",
         "training officer",
-        "driver"
+        "state administrative and logistics officer"
       ],
       "top_state": "Oyo",
       "with_salary": 0
@@ -299,9 +299,9 @@
       "display_name": "Stanbic IBTC",
       "postings": 96,
       "top_titles": [
-        "banker business",
         "banker business oyo",
-        "business banker enterprise banking"
+        "banker business",
+        "banker business ondo"
       ],
       "top_state": "Lagos",
       "with_salary": 0
@@ -312,8 +312,8 @@
       "postings": 94,
       "top_titles": [
         "graduate",
-        "baker",
-        "head of supply chain"
+        "head of supply chain",
+        "baker"
       ],
       "top_state": "Lagos",
       "with_salary": 23
@@ -324,8 +324,8 @@
       "postings": 93,
       "top_titles": [
         "receptionist",
-        "registered nurse",
-        "primary school teacher"
+        "primary school teacher",
+        "registered nurse"
       ],
       "top_state": "Oyo",
       "with_salary": 4
@@ -337,7 +337,7 @@
       "top_titles": [
         "consultant intensivist",
         "medical physicist",
-        "consultant emergency medicine physician"
+        "consultant general surgery"
       ],
       "top_state": "FCT",
       "with_salary": 0
@@ -361,7 +361,7 @@
       "top_titles": [
         "business developer",
         "credit risk manager",
-        "field verification officer"
+        "loan sales officer rivers"
       ],
       "top_state": "Lagos",
       "with_salary": 28
@@ -371,9 +371,9 @@
       "display_name": "Enugu State College Of Education Technical",
       "postings": 83,
       "top_titles": [
-        "lecturer home economics",
-        "lecturer health and physical education",
-        "lecturer entrepreneur studies"
+        "lecturer christian religious studies",
+        "lecturer education foundations",
+        "lecturer electrical electronics"
       ],
       "top_state": "Enugu",
       "with_salary": 0
@@ -383,8 +383,8 @@
       "display_name": "Godfrey Okoye University Teaching Hospital",
       "postings": 83,
       "top_titles": [
-        "house officer",
         "resident doctor",
+        "house officer",
         "registrar"
       ],
       "top_state": "Enugu",
@@ -397,7 +397,7 @@
       "top_titles": [
         "procurement officer",
         "human resources assistant",
-        "sales"
+        "social media manager"
       ],
       "top_state": "Lagos",
       "with_salary": 19
@@ -419,9 +419,9 @@
       "display_name": "Flour Mills of Nigeria Plc",
       "postings": 74,
       "top_titles": [
-        "hygiene manager golden penny foods",
-        "quality trade complaints specialist west region research development b b",
-        "maintenance manager mechanical fmn holdings golden penny power limited"
+        "transport optimization manager fmn holdings limited golden transport company",
+        "quality trade complaints specialist north region research development b b",
+        "health safety environment supervisor"
       ],
       "top_state": "Lagos",
       "with_salary": 0
@@ -432,8 +432,8 @@
       "postings": 72,
       "top_titles": [
         "lecturer",
-        "assistant lecturer assistant lecturer radiography",
-        "assistant lecturer nutrition and dietetics"
+        "assistant lecturer veterinary physiology and biochemistry",
+        "medical laboratory scientist"
       ],
       "top_state": "Nasarawa",
       "with_salary": 0
@@ -444,8 +444,8 @@
       "postings": 68,
       "top_titles": [
         "lecturer",
-        "assistant lecturer",
-        "professor"
+        "professor",
+        "assistant lecturer"
       ],
       "top_state": "Osun",
       "with_salary": 0
@@ -456,8 +456,8 @@
       "postings": 68,
       "top_titles": [
         "executive assistant to the md ceo",
-        "admin sales officer",
-        "bid tender coordinator"
+        "team tailored learning",
+        "refinery"
       ],
       "top_state": "Lagos",
       "with_salary": 1
@@ -502,7 +502,7 @@
     {
       "band": "unspecified",
       "ord": 99,
-      "postings": 17943,
+      "postings": 17945,
       "pct_of_specified": 0.0,
       "pct_of_all": 46.2
     }
@@ -528,17 +528,17 @@
       "title": "driver",
       "postings": 327,
       "rank": 3,
-      "growth_ratio_wow": 0.21,
-      "recent_postings": 6,
+      "growth_ratio_wow": 0.18,
+      "recent_postings": 5,
       "previous_postings": 28
     },
     {
       "title": "sales executive",
       "postings": 216,
       "rank": 4,
-      "growth_ratio_wow": 0.53,
+      "growth_ratio_wow": 0.57,
       "recent_postings": 8,
-      "previous_postings": 15
+      "previous_postings": 14
     },
     {
       "title": "executive assistant",
@@ -552,17 +552,17 @@
       "title": "front desk officer",
       "postings": 173,
       "rank": 6,
-      "growth_ratio_wow": 0.85,
-      "recent_postings": 11,
+      "growth_ratio_wow": 0.77,
+      "recent_postings": 10,
       "previous_postings": 13
     },
     {
       "title": "business development manager",
       "postings": 153,
       "rank": 7,
-      "growth_ratio_wow": 1.1,
-      "recent_postings": 11,
-      "previous_postings": 10
+      "growth_ratio_wow": 0.82,
+      "recent_postings": 9,
+      "previous_postings": 11
     },
     {
       "title": "mathematics teacher",
@@ -576,16 +576,16 @@
       "title": "sales representative",
       "postings": 134,
       "rank": 9,
-      "growth_ratio_wow": 1.0,
-      "recent_postings": 9,
+      "growth_ratio_wow": 0.89,
+      "recent_postings": 8,
       "previous_postings": 9
     },
     {
       "title": "human resources officer",
-      "postings": 122,
+      "postings": 124,
       "rank": 10,
-      "growth_ratio_wow": 0.83,
-      "recent_postings": 5,
+      "growth_ratio_wow": 1.17,
+      "recent_postings": 7,
       "previous_postings": 6
     }
   ],
@@ -594,7 +594,7 @@
       "skill_slug": "excel",
       "skill_name": "Microsoft Excel",
       "category": "Data, Analytics & AI",
-      "postings": 4297,
+      "postings": 4299,
       "rank": 1
     },
     {
