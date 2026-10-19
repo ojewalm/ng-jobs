@@ -34,8 +34,8 @@
       "state_code": "NI",
       "state_name": "Niger",
       "zone": "NC",
-      "postings_total": 474,
-      "postings_with_salary": 124,
+      "postings_total": 477,
+      "postings_with_salary": 127,
       "median_salary": 200000.0,
       "p25_salary": 110000.0,
       "p75_salary": 200000.0
@@ -44,8 +44,8 @@
       "state_code": "LA",
       "state_name": "Lagos",
       "zone": "SW",
-      "postings_total": 19175,
-      "postings_with_salary": 3162,
+      "postings_total": 19184,
+      "postings_with_salary": 3171,
       "median_salary": 200000.0,
       "p25_salary": 125000.0,
       "p75_salary": 325000.0
@@ -94,8 +94,8 @@
       "state_code": "FC",
       "state_name": "FCT",
       "zone": "NC",
-      "postings_total": 4155,
-      "postings_with_salary": 744,
+      "postings_total": 4160,
+      "postings_with_salary": 749,
       "median_salary": 175000.0,
       "p25_salary": 125000.0,
       "p75_salary": 250000.0
@@ -467,28 +467,28 @@
     {
       "band": "0-1 yr (entry)",
       "ord": 1,
-      "postings": 3308,
+      "postings": 3309,
       "pct_of_specified": 14.3,
       "pct_of_all": 7.8
     },
     {
       "band": "2-3 yr",
       "ord": 2,
-      "postings": 10432,
+      "postings": 10434,
       "pct_of_specified": 45.2,
       "pct_of_all": 24.5
     },
     {
       "band": "4-5 yr",
       "ord": 3,
-      "postings": 4975,
+      "postings": 4976,
       "pct_of_specified": 21.6,
       "pct_of_all": 11.7
     },
     {
       "band": "6-10 yr",
       "ord": 4,
-      "postings": 3569,
+      "postings": 3570,
       "pct_of_specified": 15.5,
       "pct_of_all": 8.4
     },
@@ -502,7 +502,7 @@
     {
       "band": "unspecified",
       "ord": 99,
-      "postings": 19600,
+      "postings": 19614,
       "pct_of_specified": 0.0,
       "pct_of_all": 46.0
     }
@@ -594,35 +594,35 @@
       "skill_slug": "excel",
       "skill_name": "Microsoft Excel",
       "category": "Data, Analytics & AI",
-      "postings": 4719,
+      "postings": 4727,
       "rank": 1
     },
     {
       "skill_slug": "qaqc",
       "skill_name": "QA/QC",
       "category": "Engineering (Industrial)",
-      "postings": 2599,
+      "postings": 2600,
       "rank": 2
     },
     {
       "skill_slug": "data-analysis",
       "skill_name": "Data Analysis",
       "category": "Data, Analytics & AI",
-      "postings": 2482,
+      "postings": 2483,
       "rank": 3
     },
     {
       "skill_slug": "networking",
       "skill_name": "Networking",
       "category": "Cloud & DevOps",
-      "postings": 1423,
+      "postings": 1425,
       "rank": 4
     },
     {
       "skill_slug": "quality-control",
       "skill_name": "Quality Control",
       "category": "Engineering (Industrial)",
-      "postings": 1283,
+      "postings": 1284,
       "rank": 5
     },
     {
@@ -643,7 +643,7 @@
       "skill_slug": "cost-control",
       "skill_name": "Cost Control",
       "category": "Engineering (Industrial)",
-      "postings": 805,
+      "postings": 807,
       "rank": 8
     },
     {
@@ -657,7 +657,7 @@
       "skill_slug": "active-directory",
       "skill_name": "Active Directory",
       "category": "Cloud & DevOps",
-      "postings": 576,
+      "postings": 578,
       "rank": 10
     }
   ]
