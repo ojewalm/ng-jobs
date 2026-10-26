@@ -44,8 +44,8 @@
       "state_code": "LA",
       "state_name": "Lagos",
       "zone": "SW",
-      "postings_total": 20154,
-      "postings_with_salary": 3377,
+      "postings_total": 20160,
+      "postings_with_salary": 3378,
       "median_salary": 200000.0,
       "p25_salary": 125000.0,
       "p75_salary": 325000.0
@@ -177,7 +177,7 @@
     {
       "company_key": "Dangote",
       "display_name": "Dangote",
-      "postings": 346,
+      "postings": 347,
       "top_titles": [
         "sectional head instrumentation",
         "general manager production",
@@ -239,9 +239,9 @@
       "display_name": "Amaiden Energy Nigeria",
       "postings": 143,
       "top_titles": [
-        "engineering process engineer",
         "legal counsel",
-        "engineering mechanical technician"
+        "engineering mechanical technician",
+        "engineering process engineer"
       ],
       "top_state": "Lagos",
       "with_salary": 0
@@ -263,8 +263,8 @@
       "display_name": "Aldelia Limited",
       "postings": 139,
       "top_titles": [
-        "material assistant",
-        "warehouse fulfilment manager",
+        "partnership manager",
+        "procurement executive",
         "quantity surveyor"
       ],
       "top_state": "Lagos",
@@ -474,21 +474,21 @@
     {
       "band": "2-3 yr",
       "ord": 2,
-      "postings": 11084,
+      "postings": 11085,
       "pct_of_specified": 45.4,
       "pct_of_all": 24.6
     },
     {
       "band": "4-5 yr",
       "ord": 3,
-      "postings": 5254,
+      "postings": 5257,
       "pct_of_specified": 21.5,
       "pct_of_all": 11.7
     },
     {
       "band": "6-10 yr",
       "ord": 4,
-      "postings": 3790,
+      "postings": 3792,
       "pct_of_specified": 15.5,
       "pct_of_all": 8.4
     },
@@ -502,7 +502,7 @@
     {
       "band": "unspecified",
       "ord": 99,
-      "postings": 20575,
+      "postings": 20579,
       "pct_of_specified": 0.0,
       "pct_of_all": 45.7
     }
@@ -594,7 +594,7 @@
       "skill_slug": "excel",
       "skill_name": "Microsoft Excel",
       "category": "Data, Analytics & AI",
-      "postings": 4972,
+      "postings": 4973,
       "rank": 1
     },
     {
@@ -608,7 +608,7 @@
       "skill_slug": "data-analysis",
       "skill_name": "Data Analysis",
       "category": "Data, Analytics & AI",
-      "postings": 2659,
+      "postings": 2660,
       "rank": 3
     },
     {
