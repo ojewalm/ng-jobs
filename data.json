@@ -165,19 +165,19 @@
     {
       "company_key": "Ascentech Services Limited",
       "display_name": "Ascentech Services Limited",
-      "postings": 415,
+      "postings": 413,
       "top_titles": [
         "electrical engineer",
         "sales executive",
         "admin officer"
       ],
       "top_state": "Lagos",
-      "with_salary": 92
+      "with_salary": 91
     },
     {
       "company_key": "Dangote",
       "display_name": "Dangote",
-      "postings": 347,
+      "postings": 346,
       "top_titles": [
         "sectional head instrumentation",
         "general manager production",
@@ -216,8 +216,8 @@
       "postings": 163,
       "top_titles": [
         "store executive",
-        "store executive mangu",
-        "store executive toro"
+        "store executive funakaye",
+        "store executive takum"
       ],
       "top_state": "Delta",
       "with_salary": 0
@@ -225,10 +225,10 @@
     {
       "company_key": "Domeo Resources International DRI",
       "display_name": "Domeo Resources International DRI",
-      "postings": 155,
+      "postings": 145,
       "top_titles": [
         "chief security officer",
-        "cleaner",
+        "cctv operative",
         "human resources manager"
       ],
       "top_state": "Abia",
@@ -240,8 +240,8 @@
       "postings": 143,
       "top_titles": [
         "legal counsel",
-        "engineering mechanical technician",
-        "engineering process engineer"
+        "engineering process engineer",
+        "engineering mechanical technician"
       ],
       "top_state": "Lagos",
       "with_salary": 0
@@ -263,9 +263,9 @@
       "display_name": "Aldelia Limited",
       "postings": 139,
       "top_titles": [
-        "partnership manager",
-        "procurement executive",
-        "quantity surveyor"
+        "legal counsel",
+        "quantity surveyor",
+        "planning engineer"
       ],
       "top_state": "Lagos",
       "with_salary": 0
@@ -276,22 +276,10 @@
       "postings": 136,
       "top_titles": [
         "technologist",
-        "assistant registrar",
+        "secretarial assistant",
         "hall attendant"
       ],
       "top_state": "Osun",
-      "with_salary": 0
-    },
-    {
-      "company_key": "Stanbic IBTC",
-      "display_name": "Stanbic IBTC",
-      "postings": 115,
-      "top_titles": [
-        "banker business",
-        "banker business oyo",
-        "coverage head north west"
-      ],
-      "top_state": "Lagos",
       "with_salary": 0
     },
     {
@@ -299,9 +287,9 @@
       "display_name": "Wertvoll Consulting Services",
       "postings": 115,
       "top_titles": [
-        "housekeeper",
-        "waiter",
-        "maintenance"
+        "maintenance",
+        "porter",
+        "waiter"
       ],
       "top_state": "Enugu",
       "with_salary": 0
@@ -311,9 +299,9 @@
       "display_name": "Scruples Resources",
       "postings": 114,
       "top_titles": [
-        "pigging specialist",
         "inventory control analyst qit",
-        "mechanical services"
+        "mechanical services",
+        "pigging specialist"
       ],
       "top_state": "Lagos",
       "with_salary": 0
@@ -321,11 +309,11 @@
     {
       "company_key": "TeamAce Limited",
       "display_name": "TeamAce Limited",
-      "postings": 113,
+      "postings": 109,
       "top_titles": [
         "graduate",
         "field recovery officer",
-        "head of supply chain"
+        "executive driver"
       ],
       "top_state": "Lagos",
       "with_salary": 33
@@ -333,11 +321,11 @@
     {
       "company_key": "IITA - International Institute of Tropical Agriculture",
       "display_name": "IITA - International Institute of Tropical Agriculture",
-      "postings": 106,
+      "postings": 104,
       "top_titles": [
         "state helpdesk officer",
         "training officer",
-        "state administrative and logistics officer"
+        "driver"
       ],
       "top_state": "Oyo",
       "with_salary": 0
@@ -357,38 +345,14 @@
     {
       "company_key": "FMR AGENCY",
       "display_name": "FMR AGENCY",
-      "postings": 103,
+      "postings": 101,
       "top_titles": [
         "procurement officer",
         "human resources assistant",
-        "direct sales agent"
+        "social media manager"
       ],
       "top_state": "Lagos",
-      "with_salary": 35
-    },
-    {
-      "company_key": "LEAM Consulting Limited",
-      "display_name": "LEAM Consulting Limited",
-      "postings": 101,
-      "top_titles": [
-        "receptionist",
-        "registered nurse",
-        "customer service representative"
-      ],
-      "top_state": "Oyo",
-      "with_salary": 4
-    },
-    {
-      "company_key": "The African Medical Centre of Excellence AMCE",
-      "display_name": "The African Medical Centre of Excellence AMCE",
-      "postings": 100,
-      "top_titles": [
-        "consultant intensivist",
-        "medical physicist",
-        "molecular pathologist"
-      ],
-      "top_state": "FCT",
-      "with_salary": 0
+      "with_salary": 33
     },
     {
       "company_key": "Obafemi Awolowo University Teaching Hospitals Complex OAUTHC",
@@ -403,13 +367,49 @@
       "with_salary": 17
     },
     {
+      "company_key": "Stanbic IBTC",
+      "display_name": "Stanbic IBTC",
+      "postings": 99,
+      "top_titles": [
+        "banker business",
+        "banker business oyo",
+        "business banker enterprise banking"
+      ],
+      "top_state": "Lagos",
+      "with_salary": 0
+    },
+    {
+      "company_key": "The African Medical Centre of Excellence AMCE",
+      "display_name": "The African Medical Centre of Excellence AMCE",
+      "postings": 99,
+      "top_titles": [
+        "consultant intensivist",
+        "medical physicist",
+        "molecular pathologist"
+      ],
+      "top_state": "FCT",
+      "with_salary": 0
+    },
+    {
+      "company_key": "LEAM Consulting Limited",
+      "display_name": "LEAM Consulting Limited",
+      "postings": 96,
+      "top_titles": [
+        "receptionist",
+        "customer service representative",
+        "primary school teacher"
+      ],
+      "top_state": "Oyo",
+      "with_salary": 3
+    },
+    {
       "company_key": "Flour Mills of Nigeria Plc",
       "display_name": "Flour Mills of Nigeria Plc",
       "postings": 96,
       "top_titles": [
         "fleet supervisor golden transport company",
         "rdc warehouse supervisor disco supply chain",
-        "sensory assistant"
+        "mechanical technician"
       ],
       "top_state": "Lagos",
       "with_salary": 0
@@ -419,9 +419,9 @@
       "display_name": "PalmPay",
       "postings": 93,
       "top_titles": [
-        "field verification officer",
         "business developer",
-        "credit risk manager"
+        "field verification officer",
+        "dealer manager"
       ],
       "top_state": "Lagos",
       "with_salary": 30
@@ -441,26 +441,26 @@
     {
       "company_key": "Viju Industries Nigeria Limited",
       "display_name": "Viju Industries Nigeria Limited",
-      "postings": 90,
+      "postings": 88,
       "top_titles": [
         "production manager",
         "welder",
-        "blow fill seal machine operator"
+        "dairy milk production line technician operator"
       ],
       "top_state": "Ogun",
-      "with_salary": 88
+      "with_salary": 87
     },
     {
       "company_key": "Whip Smart Service Providers Limited",
       "display_name": "Whip Smart Service Providers Limited",
-      "postings": 86,
+      "postings": 84,
       "top_titles": [
         "social media strategist",
         "creative marketing strategist",
         "sales executive ipaja"
       ],
       "top_state": "Lagos",
-      "with_salary": 79
+      "with_salary": 77
     }
   ],
   "experience_bands": [
