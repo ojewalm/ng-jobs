@@ -24,7 +24,7 @@
       "state_code": "LA",
       "state_name": "Lagos",
       "zone": "SW",
-      "postings_total": 21886,
+      "postings_total": 21887,
       "postings_with_salary": 3706,
       "median_salary": 200000.0,
       "p25_salary": 125000.0,
@@ -44,7 +44,7 @@
       "state_code": "FC",
       "state_name": "FCT",
       "zone": "NC",
-      "postings_total": 4747,
+      "postings_total": 4748,
       "postings_with_salary": 837,
       "median_salary": 175000.0,
       "p25_salary": 125000.0,
@@ -165,7 +165,7 @@
     {
       "company_key": "Ascentech Services Limited",
       "display_name": "Ascentech Services Limited",
-      "postings": 390,
+      "postings": 382,
       "top_titles": [
         "electrical engineer",
         "sales executive",
@@ -177,11 +177,11 @@
     {
       "company_key": "Dangote",
       "display_name": "Dangote",
-      "postings": 316,
+      "postings": 314,
       "top_titles": [
-        "general manager production",
         "sectional head instrumentation",
-        "cng truck driver"
+        "general manager production",
+        "chemical engineer"
       ],
       "top_state": "Lagos",
       "with_salary": 0
@@ -189,11 +189,11 @@
     {
       "company_key": "Moniepoint Inc.",
       "display_name": "Moniepoint Inc.",
-      "postings": 296,
+      "postings": 288,
       "top_titles": [
         "business relationship manager",
-        "implementation officer",
-        "field credit officer"
+        "field credit officer",
+        "implementation officer"
       ],
       "top_state": "Lagos",
       "with_salary": 0
@@ -215,9 +215,9 @@
       "display_name": "Aldelia Limited",
       "postings": 148,
       "top_titles": [
-        "material assistant",
-        "buyer",
-        "procurement executive"
+        "inventory control officer",
+        "radio radar operator",
+        "partnership manager"
       ],
       "top_state": "Lagos",
       "with_salary": 0
@@ -225,11 +225,11 @@
     {
       "company_key": "Amaiden Energy Nigeria",
       "display_name": "Amaiden Energy Nigeria",
-      "postings": 143,
+      "postings": 140,
       "top_titles": [
+        "legal counsel",
         "engineering process engineer",
-        "learning officer",
-        "engineering mechanical technician"
+        "learning officer"
       ],
       "top_state": "Lagos",
       "with_salary": 0
@@ -252,8 +252,8 @@
       "postings": 136,
       "top_titles": [
         "technologist",
-        "hall attendant",
-        "confidential secretary"
+        "administrative officer",
+        "lab supervisor"
       ],
       "top_state": "Osun",
       "with_salary": 0
@@ -263,9 +263,9 @@
       "display_name": "Scruples Resources",
       "postings": 117,
       "top_titles": [
-        "mechanical services",
-        "project engineer",
-        "wells advisor"
+        "wells advisor",
+        "pigging specialist",
+        "project engineer"
       ],
       "top_state": "Lagos",
       "with_salary": 0
@@ -275,9 +275,9 @@
       "display_name": "Wertvoll Consulting Services",
       "postings": 108,
       "top_titles": [
-        "maintenance",
-        "housekeeper",
-        "front desk officer"
+        "front desk officer",
+        "waiter",
+        "maintenance"
       ],
       "top_state": "Enugu",
       "with_salary": 0
@@ -285,11 +285,11 @@
     {
       "company_key": "Domeo Resources International DRI",
       "display_name": "Domeo Resources International DRI",
-      "postings": 107,
+      "postings": 105,
       "top_titles": [
         "chief security officer",
-        "human resources manager",
-        "cctv operative"
+        "cctv operative",
+        "human resources manager"
       ],
       "top_state": "Abia",
       "with_salary": 0
@@ -301,21 +301,9 @@
       "top_titles": [
         "state helpdesk officer",
         "training officer",
-        "state administrative and logistics officer"
+        "driver"
       ],
       "top_state": "Oyo",
-      "with_salary": 0
-    },
-    {
-      "company_key": "Stanbic IBTC",
-      "display_name": "Stanbic IBTC",
-      "postings": 104,
-      "top_titles": [
-        "banker business oyo",
-        "banker business",
-        "coverage head north west"
-      ],
-      "top_state": "Lagos",
       "with_salary": 0
     },
     {
@@ -335,23 +323,23 @@
       "display_name": "Sun King Formerly Greenlight Planet ",
       "postings": 103,
       "top_titles": [
-        "area phone business manager katsina",
-        "phone business manager retail",
-        "phone business manager north zone"
+        "regional phone business manager retail",
+        "store executive nasarawa",
+        "phone business manager retail"
       ],
       "top_state": "Delta",
       "with_salary": 0
     },
     {
-      "company_key": "The African Medical Centre of Excellence AMCE",
-      "display_name": "The African Medical Centre of Excellence AMCE",
-      "postings": 99,
+      "company_key": "Stanbic IBTC",
+      "display_name": "Stanbic IBTC",
+      "postings": 103,
       "top_titles": [
-        "consultant intensivist",
-        "medical physicist",
-        "molecular pathologist"
+        "banker business oyo",
+        "banker business",
+        "manager relationship mandarin speaking north"
       ],
-      "top_state": "FCT",
+      "top_state": "Lagos",
       "with_salary": 0
     },
     {
@@ -367,16 +355,16 @@
       "with_salary": 17
     },
     {
-      "company_key": "TeamAce Limited",
-      "display_name": "TeamAce Limited",
-      "postings": 95,
+      "company_key": "The African Medical Centre of Excellence AMCE",
+      "display_name": "The African Medical Centre of Excellence AMCE",
+      "postings": 99,
       "top_titles": [
-        "field recovery officer",
-        "executive driver",
-        "growth"
+        "consultant intensivist",
+        "medical physicist",
+        "molecular pathologist"
       ],
-      "top_state": "Lagos",
-      "with_salary": 33
+      "top_state": "FCT",
+      "with_salary": 0
     },
     {
       "company_key": "LEAM Consulting Limited",
@@ -384,11 +372,23 @@
       "postings": 92,
       "top_titles": [
         "primary school teacher",
-        "customer service representative",
-        "receptionist"
+        "receptionist",
+        "customer service representative"
       ],
       "top_state": "Oyo",
       "with_salary": 1
+    },
+    {
+      "company_key": "TeamAce Limited",
+      "display_name": "TeamAce Limited",
+      "postings": 91,
+      "top_titles": [
+        "field recovery officer",
+        "executive driver",
+        "growth"
+      ],
+      "top_state": "Lagos",
+      "with_salary": 33
     },
     {
       "company_key": "Viju Industries Nigeria Limited",
@@ -415,9 +415,21 @@
       "with_salary": 0
     },
     {
+      "company_key": "Fadac Resources",
+      "display_name": "Fadac Resources",
+      "postings": 87,
+      "top_titles": [
+        "team member",
+        "restaurant manager",
+        "pizza maker"
+      ],
+      "top_state": "Lagos",
+      "with_salary": 11
+    },
+    {
       "company_key": "PalmPay",
       "display_name": "PalmPay",
-      "postings": 88,
+      "postings": 87,
       "top_titles": [
         "business developer",
         "field verification officer",
@@ -427,40 +439,28 @@
       "with_salary": 16
     },
     {
-      "company_key": "Fadac Resources",
-      "display_name": "Fadac Resources",
-      "postings": 87,
-      "top_titles": [
-        "team member",
-        "sales manager",
-        "business development"
-      ],
-      "top_state": "Lagos",
-      "with_salary": 11
-    },
-    {
       "company_key": "Enugu State College Of Education Technical",
       "display_name": "Enugu State College Of Education Technical",
       "postings": 83,
       "top_titles": [
-        "lecturer primary education",
-        "lecturer education foundations",
-        "lecturer curriculum"
+        "lecturer mathematics",
+        "lecturer wood work technology",
+        "lecturer home economics"
       ],
       "top_state": "Enugu",
       "with_salary": 0
     },
     {
-      "company_key": "Whip Smart Service Providers Limited",
-      "display_name": "Whip Smart Service Providers Limited",
+      "company_key": "Godfrey Okoye University Teaching Hospital",
+      "display_name": "Godfrey Okoye University Teaching Hospital",
       "postings": 83,
       "top_titles": [
-        "social media strategist",
-        "sales executive ipaja",
-        "creative marketing strategist"
+        "house officer",
+        "resident doctor",
+        "nursing officer"
       ],
-      "top_state": "Lagos",
-      "with_salary": 77
+      "top_state": "Enugu",
+      "with_salary": 0
     }
   ],
   "experience_bands": [
@@ -474,7 +474,7 @@
     {
       "band": "2-3 yr",
       "ord": 2,
-      "postings": 12046,
+      "postings": 12047,
       "pct_of_specified": 45.3,
       "pct_of_all": 24.7
     },
@@ -502,7 +502,7 @@
     {
       "band": "unspecified",
       "ord": 99,
-      "postings": 22170,
+      "postings": 22171,
       "pct_of_specified": 0.0,
       "pct_of_all": 45.5
     }
@@ -520,9 +520,9 @@
       "title": "accountant",
       "postings": 468,
       "rank": 2,
-      "growth_ratio_wow": 1.07,
-      "recent_postings": 15,
-      "previous_postings": 14
+      "growth_ratio_wow": 0.93,
+      "recent_postings": 14,
+      "previous_postings": 15
     },
     {
       "title": "driver",
