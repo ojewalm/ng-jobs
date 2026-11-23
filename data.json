@@ -24,8 +24,8 @@
       "state_code": "LA",
       "state_name": "Lagos",
       "zone": "SW",
-      "postings_total": 24017,
-      "postings_with_salary": 4033,
+      "postings_total": 24019,
+      "postings_with_salary": 4034,
       "median_salary": 200000.0,
       "p25_salary": 125000.0,
       "p75_salary": 325000.0
@@ -44,7 +44,7 @@
       "state_code": "FC",
       "state_name": "FCT",
       "zone": "NC",
-      "postings_total": 5223,
+      "postings_total": 5224,
       "postings_with_salary": 913,
       "median_salary": 175000.0,
       "p25_salary": 125000.0,
@@ -494,7 +494,7 @@
     {
       "band": "2-3 yr",
       "ord": 2,
-      "postings": 13199,
+      "postings": 13201,
       "pct_of_specified": 45.1,
       "pct_of_all": 24.7
     },
@@ -522,7 +522,7 @@
     {
       "band": "unspecified",
       "ord": 99,
-      "postings": 24155,
+      "postings": 24156,
       "pct_of_specified": 0.0,
       "pct_of_all": 45.2
     }
@@ -562,19 +562,19 @@
     },
     {
       "title": "sales executive",
-      "postings": 273,
+      "postings": 274,
       "rank": 5,
-      "growth_ratio_wow": 1.1,
-      "recent_postings": 11,
+      "growth_ratio_wow": 1.2,
+      "recent_postings": 12,
       "previous_postings": 10
     },
     {
       "title": "front desk officer",
       "postings": 224,
       "rank": 6,
-      "growth_ratio_wow": 1.0,
-      "recent_postings": 8,
-      "previous_postings": 8
+      "growth_ratio_wow": 0.78,
+      "recent_postings": 7,
+      "previous_postings": 9
     },
     {
       "title": "professor",
@@ -614,7 +614,7 @@
       "skill_slug": "excel",
       "skill_name": "Microsoft Excel",
       "category": "Data, Analytics & AI",
-      "postings": 5992,
+      "postings": 5993,
       "rank": 1
     },
     {
@@ -635,7 +635,7 @@
       "skill_slug": "networking",
       "skill_name": "Networking",
       "category": "Cloud & DevOps",
-      "postings": 1837,
+      "postings": 1838,
       "rank": 4
     },
     {
